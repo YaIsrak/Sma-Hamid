@@ -1,0 +1,33 @@
+header{
+    height: 100vh;
+    width: 100%;
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+header a{
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.nav-item a{
+    position: relative;
+    bottom: 0;
+    transition: 0.3s;
+}
+.nav-item a:hover{
+    position: relative;
+    bottom: 7px;
+}
+.navbar{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.116);
+}
+.navbar .dropdown-item{
+    bottom: 0;
+    left: 0px;
+}
+.navbar .dropdown-item:hover{
+    bottom: 0;
+    left: 10px;
+}
