@@ -1,0 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+.about{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}

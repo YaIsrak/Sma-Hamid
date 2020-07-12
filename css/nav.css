@@ -1,5 +1,19 @@
+/*font-family: 'Poppins', sans-serif;*/
 header{
     height: 100vh;
+    width: 100%;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black-cover{
+    background: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100%;
+    
+}
+.navigation{
+    position: fixed;
     width: 100%;
 }
 .navbar-brand{
@@ -15,6 +29,7 @@ header a{
     position: relative;
     bottom: 0;
     transition: 0.3s;
+    margin: 0px 7px;
 }
 .nav-item a:hover{
     position: relative;
@@ -30,4 +45,19 @@ header a{
 .navbar .dropdown-item:hover{
     bottom: 0;
     left: 10px;
+}
+/*Intro*/
+.intro{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    transform: translate(0%, -60%);
+    background-image: url();
+}
+.intro h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10vmin;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.29);
 }
