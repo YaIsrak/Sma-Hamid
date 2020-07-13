@@ -28,6 +28,7 @@
 </head>
 <body>
     <header  style="background-image: url(photos/1.jpg);" id="home">
+      <div class="cursor" id="cursor"></div>
       <div class="intro" data-aos="fade-right">
         <h1>Hello There, This is <br>
           <b style="color: #00a1ff;font-weight: 700;">S.M. Abdul Hamid</b></h1>
@@ -168,5 +169,22 @@
       </div>
     </footer>
     <script>AOS.init();</script>
+    <script>
+      let mouseCursor = document.querySelector(".cursor");
+
+window.addEventListener('mousemove',cursor);
+
+function cursor(e){
+    mouseCursor.style.top = e.pageY + 'px';
+    mouseCursor.style.left = e.pageX + 'px';
+}
+document.addEventListener('click',() =>{
+    mouseCursor.classList.add("mouse-click");
+    setTimeout(() => {
+        mouseCursor.classList.remove("mouse-click");
+    },500)
+})
+</script>
+    </script>
 </body>
 </html>
