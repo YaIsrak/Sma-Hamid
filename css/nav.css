@@ -15,10 +15,15 @@ header{
 .navigation{
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
 .navbar-brand{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    color: black;
+}
+.navbar-brand:hover{
+    color:#00a1ff;
 }
 header a{
     font-size: 1em;
@@ -60,4 +65,5 @@ header a{
     font-family: 'Poppins', sans-serif;
     font-size: 10vmin;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.29);
+    font-weight: 200;
 }

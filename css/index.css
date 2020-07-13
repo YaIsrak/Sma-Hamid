@@ -1,8 +1,164 @@
+/*font-family: 'Poppins', sans-serif;*/
 html{
     scroll-behavior: smooth;
 }
+
+/*About*/
 .about{
-    background-color: white;
-    height: 100vh;
+    background-color: whitesmoke;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.about img{
+    width: 70%;
+    border-radius: 5px;
+}
+.about .panel{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10vmin 10vmin;
+    left: -22vmin;
+    background-color: white;
+}
+.about h1{
+    font-weight: 700;
+    position: relative;
+    bottom: 0;
+    transition: 0.3s;
+}
+.about .panel p{
+    font-weight: 400;
+}
+.about-me{
+    padding: 15vmin 0;
+}
+.about-me img{
+    position: relative;
+    bottom: 0;
+    transition: 0.3s;
+}
+.about-me img{
+    bottom: 7px;
+}
+.about .for-photo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+}
+.about .for-photo .column{
+    flex: 50%;
+}
+.about .container .for-photo .column img{
+    padding: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.about .container:last-child{
+    padding: 15vmin 0;
+}
+
+/*Skill*/
+.skill{
+    padding: 15vmin 0;
+    font-family: 'Poppins', sans-serif;
+}
+.skill h1{
+    font-weight: 700;
+    padding-bottom: 10vmin;
+}
+.skill .container p{
+    padding-bottom: 3vmin;
+}
+
+/*Footer*/
+.footer-2{
+    background-color: #151515;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-2 .col-md-5,
+.footer-2 .col-md-3, 
+.footer-2 .col-md-4{
+    padding: 5vmin;
+    width: 100%;
+}
+.footer-2 .col-md-4 h1{
+    color: white;
+    font-weight: 700;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+.footer-2 .col-md-4 h1:hover{
+    color:#007bff;
+    top: 45%;
+}
+.icon-group{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.icon-group a i{
+    color: gray;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    bottom: 0;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    margin: 0 5px;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.icon-group a i:hover{
+    color: white;
+    position: relative;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    bottom: 7px;
+}
+
+.footer-1{
+    background-image: linear-gradient(135deg, #D9230D, #D91470);
+    width: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif
+}
+.footer-intro{
+    text-align: center;
+    padding: 20vmin 0vmin;
+}
+.footer-1 a{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 2vmin 5vmin;
+    margin:12px;
+    font-weight: 500;
+    font-size: 3vmin;
+    position: relative;
+    bottom: 0;
+    transition: 0.3s;
+}
+.footer-1 a:hover{
+    color:#D51939;
+    background-color: white;
+    text-decoration: none;
+    bottom: 7px;
+}
+.footer-1 h1{
+    padding-bottom: 5vmin;
+    font-weight: 800;
+    font-size: 12vmin;
+}
+.footer-1 p{
+    margin: 0;
+    font-weight: 200;
+    font-size: 3vmin;
 }

@@ -7,4 +7,10 @@
         left:10px;
         bottom: 0;
     }
+    .about .panel{
+        left: 0;
+    }
+    .about .container:last-child{
+        padding: 15vmin 3vmin;
+    }
 }
