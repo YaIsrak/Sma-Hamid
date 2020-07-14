@@ -55,9 +55,14 @@ html{
     padding: 8px;
     vertical-align: middle;
     width: 100%;
+    border-radius: 15px;
+    transition: 0.3s;
 }
 .about .container:last-child{
     padding: 15vmin 0;
+}
+.about .container .for-photo .column img:hover{
+    border-radius: 30px;
 }
 
 /*Skill*/
@@ -72,6 +77,40 @@ html{
 .skill .container p{
     padding-bottom: 3vmin;
 }
+
+/*Curriculur*/
+.curriculum{
+    font-family: 'Poppins', sans-serif;
+    background-color: #151515;
+    color: white;
+    width: 100%;
+}
+.curriculum h1{
+    font-weight: 700;
+    padding-bottom: 10vmin;
+}
+.co-c{
+    padding: 15vmin;
+    border-bottom: 2px solid white;
+}
+.ex-c{
+    padding: 15vmin;
+}
+.co-c i, .ex-c i{
+    font-size: 25vmin;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: scale(1%);
+    transition: 0.3s;
+}
+.co-c i:hover, .ex-c i:hover{
+    color: #007bff;
+    transform: scale(15%);
+}
+
+
+
 
 /*Footer*/
 .footer-2{
@@ -89,13 +128,24 @@ html{
     color: white;
     font-weight: 700;
     position: relative;
+    top: 0%;
+    /*transform: translateY(-50%);*/
+    transition: 0.3s;
+}
+.footer-2 a{
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     transition: 0.3s;
 }
 .footer-2 .col-md-4 h1:hover{
     color:#007bff;
-    top: 45%;
+    top: -5%;
+}
+.footer-2 .col-md-4 .text-muted{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .icon-group{
     position: relative;
