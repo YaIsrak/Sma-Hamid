@@ -5,7 +5,6 @@ header{
     background-position: 50% 10%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 .black-cover{
     background: rgba(0, 0, 0, 0.6);
