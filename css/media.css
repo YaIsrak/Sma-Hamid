@@ -19,4 +19,7 @@
     .ex-c i{
         padding-top: 5vmin;
     }
+    .co-c i, .ex-c i{
+        transform: translateY(-0%);
+    }
 }
