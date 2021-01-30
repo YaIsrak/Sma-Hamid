@@ -1,0 +1,126 @@
+@import "custom.scss";
+
+*{
+    transition: 0.3s;
+}
+
+body{
+    font-family: $font1;
+    a{
+        color: $primary;
+        text-decoration: none;
+    }
+}
+
+section{
+    padding: 15vmin 0;
+    font-family: $font1;
+}
+
+// section1
+// =================
+.black-cover{
+    opacity: 0.6;
+    background-color: $dark;
+    z-index: 0;
+}
+.section1{
+    height: 100vh;
+    background-position: 50% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .intro{
+        p{
+            font-size: 7vmin;
+        }
+        h1{
+            font-size: 8vmin;
+            font-weight: 700;
+        }
+    }
+}
+
+
+// section2
+// ==================
+
+.section2{
+    .info{
+        .row{
+            .col-md-6{
+                img{
+                    border-radius: 5px;
+                }
+                .panel{
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+                    border-radius: 5px;
+                    background-color: $white;
+                    padding: 20vmin 5vmin;
+                    h1{
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+    .photos{
+        padding: 5vmin 0;
+        h1{
+            font-weight: 700;
+        }
+        .row{
+            .col-4{
+                img{
+                    margin: 5px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+// section3
+// ===================
+.section3{
+    h1{
+        font-weight: 800;
+    }
+    // p{
+    //     font-weight: 700;
+    // }
+    .row{
+        .col-3{
+            background-color: none;
+            padding: 5vmin 0;
+            border-radius: 5px;
+            &:hover{
+                background-color: $primary;
+                // color: $white;
+            }
+            i{
+                font-size: 7vmin;
+                margin: 2vmin;
+            }
+        }
+    }
+}
+
+// section4
+// ==================
+.section4{
+    .co-c, .ex-c{
+        .container{
+            .row{
+                .col{
+                    h1{
+                        font-weight: 700;
+                        padding: 5vmin 0;
+                    }
+                    i{
+                        font-size: 30vmin;
+                    }
+                }
+            }
+        }
+    }
+}
