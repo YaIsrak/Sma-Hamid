@@ -5,15 +5,16 @@
 }
 
 .navbar{
+    z-index: 1000;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.4);
     position: fixed;
     background-color: white;
     font-family: $font1;
-    color: $dark;
-    a{
-        color: black;
-        // font-weight: 400;
-    }
+    color: red;
+    // a{
+    //     color: black;
+    //     // font-weight: 400;
+    // }
     .navbar-brand{
         font-weight: 800;
         &:hover{
@@ -23,7 +24,7 @@
     .nav-link{
         margin: 0 5px;
         font-weight: 600;
-        color: #8c8c8c;
+        // color: #8c8c8c;
         position: relative;
         bottom: 0;
         transition: 0.2s;
@@ -38,6 +39,11 @@
         outline: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
+    }
+    .dark-btn{
+        // background: none;
+        border: 2px solid black;
+        border-radius: 2px;
     }
       
 }

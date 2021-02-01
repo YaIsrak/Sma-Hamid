@@ -11310,16 +11310,13 @@ fieldset:disabled .btn {
 }
 
 .navbar {
+  z-index: 1000;
   -webkit-box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.4);
           box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.4);
   position: fixed;
   background-color: white;
   font-family: "Montserrat", sans-serif;
-  color: #0e0e0e;
-}
-
-.navbar a {
-  color: black;
+  color: red;
 }
 
 .navbar .navbar-brand {
@@ -11333,7 +11330,6 @@ fieldset:disabled .btn {
 .navbar .nav-link {
   margin: 0 5px;
   font-weight: 600;
-  color: #8c8c8c;
   position: relative;
   bottom: 0;
   -webkit-transition: 0.2s;
@@ -11352,6 +11348,11 @@ fieldset:disabled .btn {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+.navbar .dark-btn {
+  border: 2px solid black;
+  border-radius: 2px;
 }
 
 .footer {
